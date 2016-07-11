@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="net.weirun.moduleproject.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <net.weirun.gallerylibrary.widget.GalleryPagerView
+        android:id="@+id/nav_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:gallery_switching_time="6"
+        app:gallery_with_height_proportion="0.6" />
+
+    <Button
+        android:id="@+id/bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nav_gallery"
+        android:onClick="clickBT"
+        android:text="测试" />
+
+    <TextView
+        android:id="@+id/code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bt"
+        android:padding="5dp"
+        android:text="获取验证码" />
+
+    <!--<TextView-->
+    <!--android:id="@+id/he"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:text="hehe" />-->
+    <!--<TextView-->
+    <!--android:text="515asdfasfdasdf"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content" />-->
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="point_normal">#77797959</color>
+    <color name="point_selected">#e4dfdf23</color>
+</resources>

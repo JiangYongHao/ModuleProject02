@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--自定义轮播图-->
+    <declare-styleable name="GalleryPagerView">
+        <!--自定义的轮播图切换显示的点-->
+        <attr name="gallery_gallery_point" format="reference" />
+        <!--轮播图奇幻时间：单位秒-->
+        <attr name="gallery_switching_time" format="integer" />
+        <!--图片宽高比例-->
+        <attr name="gallery_with_height_proportion" format="float" />
+        <!--是否自动切换： 默认为true-->
+        <attr name="gallery_is_auto_switch" format="boolean" />
+    </declare-styleable>
+
+</resources>
